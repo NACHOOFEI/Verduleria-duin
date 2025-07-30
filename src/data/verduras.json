@@ -1,0 +1,12 @@
+[
+  { "id": 1, "descripcion": "Tomates" },
+  { "id": 2, "descripcion": "Manzanas" },
+  { "id": 3, "descripcion": "Peras" },
+  { "id": 4, "descripcion": "Limones" },
+  { "id": 5, "descripcion": "Bananas" },
+  { "id": 6, "descripcion": "Melones" },
+  { "id": 7, "descripcion": "Kiwi" },
+  { "id": 8, "descripcion": "Sandias" },
+  { "id": 9, "descripcion": "Polmelos" },
+  { "id": 10, "descripcion": "Mandarinas" }
+]
