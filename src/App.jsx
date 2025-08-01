@@ -16,12 +16,9 @@ function App() {
       setLista([...lista, { ...producto, cantidad: cant }]);
     }
   };
+
   const handleClickEliminar = (id) => {
-    setLista(
-      lista.filter((l) => {
-        l.id !== id;
-      })
-    );
+    setLista(lista.filter((l) => l.id !== id));
   };
   return (
     <>

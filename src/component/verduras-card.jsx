@@ -22,7 +22,12 @@ export function VerdurasCard({ producto, agregarCarrito }) {
               <div className="col">
                 <button
                   onClick={() => {
+                    if (contador === 0) {
+                      alert("ingrese cantidad");
+                      return;
+                    }
                     agregarCarrito(producto, contador);
+                    setContador(0);
                   }}
                 >
                   agregar
